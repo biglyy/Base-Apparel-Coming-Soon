@@ -133,12 +133,11 @@ input[type='submit']:hover {
  */
 
 @media screen and (max-width: 375px) {
-	/* .container {
+	.container {
 		min-height: 100vh;
-		background-color: red;
 		display: flex;
 		flex-direction: column;
-	} */
+	}
 	h1 {
 		color: red;
 	}
