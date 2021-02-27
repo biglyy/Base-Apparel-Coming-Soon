@@ -89,6 +89,12 @@ input[type='email'],
 input[type='submit']:focus {
 	outline: none;
 }
+/* .autofill:-webkit-autofill {
+	-webkit-text-fill-color: var(--desat-red);
+}
+.placeholder:-webkit-autofill:focus {
+	-webkit-text-fill-color: var(--desat-red);
+} */
 ::placeholder {
 	color: var(--desat-red);
 }
@@ -118,11 +124,7 @@ input[type='submit']:hover {
 	width: 100%;
 	height: 100%;
 }
-.test-div {
-	height: 812px;
-	width: 375px;
-	background-color: yellowgreen;
-}
+
 /* - Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
 - Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
 
@@ -131,16 +133,16 @@ input[type='submit']:hover {
  */
 
 @media screen and (max-width: 375px) {
-	body {
-	}
-	.container {
-		height: 100vh;
-
+	/* .container {
+		min-height: 100vh;
+		background-color: red;
 		display: flex;
 		flex-direction: column;
+	} */
+	h1 {
+		color: red;
 	}
-	.test-div {
-		background-color: red;
-		height: 100vh;
+	.right-div {
+		height: 40%;
 	}
 }
