@@ -32,7 +32,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 }
 .logo {
 	/* background-color: violet; */
@@ -47,13 +47,9 @@ body {
 .content {
 	/* background-color: salmon; */
 	position: absolute;
-	height: 80%;
 	width: 50%;
-	left: 300px;
 	top: 30px;
-	/* padding-right: 2rem;
-	max-width: 34rem;
-	flex: 1 0 auto; */
+	
 }
 
 .content h1 {
@@ -75,14 +71,7 @@ p {
 	font-weight: 400;
 	color: var(--desat-red);
 }
-/* .form {
-	display: flex;
-	justify-content: stretch
-} */
-/* .form {
-	margin-top: 70px;
-	margin-left: 12px;
-} */
+
 form {
 	margin-top: 70px;
 	margin-left: 12px;
@@ -140,12 +129,6 @@ input[type='submit']:hover {
 	object-fit: cover;
 }
 
-/* - Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
-- Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
-
-	background-color: red;
-
- */
 
 @media screen and (max-width: 730px) {
 	.container {
@@ -164,12 +147,6 @@ input[type='submit']:hover {
 		width: 100%;
 	}
 
-	/* .right-div,
-	.left-div {
-		height: 50%;
-		width: 100%;
-	} */
-
 	.right-div img {
 		object-fit: cover;
 		width: 100%;
@@ -187,11 +164,6 @@ input[type='submit']:hover {
 		position: absolute;
 		top: 40%;
 	}
-	/* .right-div img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	} */
 	.content {
 		left: 20%;
 		width: 70%;
